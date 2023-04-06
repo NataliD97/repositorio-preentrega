@@ -72,12 +72,7 @@ body{
     
         
     
-    header nav ul li.buscador {
-        display: flex;
-    }
-    .buscador .buscar {
-        margin-left: -60%;
-    }
+    
 
     .menu {
         flex-direction: column;
@@ -119,6 +114,12 @@ body{
 }
 
 @media (min-width: 400px) and (max-width: 768px) {
+    header nav ul li.buscador {
+        display: flex;
+    }
+    .buscador .buscar {
+        margin-left: -60%;
+    }
     div.stock h2 {
         font-size: 50px !important;
     }
@@ -164,6 +165,7 @@ body{
         position: absolute;
         margin-bottom: -30px !important;
     }
+    
     
 
     

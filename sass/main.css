@@ -65,7 +65,7 @@ body .promo-barra h2 {
   text-align: center;
 }
 body .promo-barra h3 {
-  font-family: "Poppins";
+  font-family: "Poppins" !important;
   color: #f6f3f3;
   text-align: center;
 }
@@ -78,14 +78,14 @@ body .promo-barra div.mail input {
   width: 400px;
   height: 40px;
   font-size: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins" !important;
   margin-top: 25px;
   margin-bottom: 35px;
 }
 body .promo-barra div.mail button {
   margin-top: 25px;
   margin-bottom: 35px;
-  font-family: "Poppins";
+  font-family: "Poppins" !important;
   font-size: 19px;
 }
 body .banner-footer {
