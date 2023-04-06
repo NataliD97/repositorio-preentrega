@@ -8,6 +8,7 @@ body{
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     --color1: #181818 ;
     --color2: #f6f3f3;
+    
 }
 .nav-bar {
     width: 100%;
@@ -68,6 +69,15 @@ body{
 #check {display: none;}
 
 @media (max-width: 670px) {
+    
+        
+    
+    header nav ul li.buscador {
+        display: flex;
+    }
+    .buscador .buscar {
+        margin-left: -60%;
+    }
 
     .menu {
         flex-direction: column;
@@ -90,51 +100,60 @@ body{
     /* QUIENES SOMOS*/
 
     .nosotros {text-align: center;}
-    .texto {
-        margin: 50px ;
-        padding: 10px;
+    .texto p {
+        margin-left: -150px;
+        margin-right: -150px;
+        padding: 0px;
         text-align: justify;
     }
 
     .footer h5 {
         font-size: 40px;
     }
-    .buscar {display: none;}
+    
 
-    .stock h2 {
-        font-size: 50px;
+    
+    
+
+    
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    div.stock h2 {
+        font-size: 50px !important;
     }
     .stock p {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .grid-cont {
         margin-left: -90px;
-        grid-template-columns: 100px 100px;
-        grid-template-rows: 200px 200px 200px 200px 200px;
-        gap: 200px;
+        margin-bottom: 100px;
+        grid-template-columns: 100px 100px !important;
+        grid-template-rows: 250px 250px 250px 250px 250px !important;
+        gap: 150px;
         
         
 
     }
-    .grid-cont div img {
-        width: 200px;
-        height: auto;
+    .grid-cont div img { 
+        width: 200px !important;
+        
     }
     .grid-cont div h3 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: bold;
         
     }
     .grid-cont div h3 {
         position: absolute;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 20px !important;
 
         margin-right: 100px;
         
     }
     .grid-cont div h4 {
-        font-size: 30px;
+        font-size: 25px !important;
 
     }
     .grid-cont div h4 {
@@ -143,7 +162,11 @@ body{
     }
     .grid-cont div p {
         position: absolute;
+        margin-bottom: -30px !important;
     }
+    
 
+    
 }
+
 
