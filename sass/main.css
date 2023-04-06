@@ -1,1 +1,137 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  background-color: #f6f3f3 !important;
+}
+body div.buscar input {
+  width: 350px;
+  height: 45px;
+  padding: 0;
+  margin-left: 750px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+body div.buscar .btn {
+  position: absolute;
+  margin-left: -45px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: bisque;
+  font-size: 20px;
+  border-radius: 45%;
+  cursor: pointer;
+}
+body div.buscar .btn i {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 5px;
+  color: black;
+}
+body div.buscar .btn:hover i {
+  transition: all 0.2s;
+  color: red;
+}
+body section.container {
+  display: flex;
+  padding: 0;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body section.container .home {
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+body section.container .home img {
+  width: 750px;
+  height: auto;
+}
+body .promo-barra {
+  margin: 100px 50px 100px 50px;
+  background-color: #681921;
+}
+body .promo-barra h2 {
+  color: #f6f3f3;
+  font-family: "Poppins";
+  font-size: 35px;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+body .promo-barra h3 {
+  font-family: "Poppins";
+  color: #f6f3f3;
+  text-align: center;
+}
+body .promo-barra div.mail {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+body .promo-barra div.mail input {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Poppins";
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+body .promo-barra div.mail button {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-family: "Poppins";
+  font-size: 19px;
+}
+body .banner-footer {
+  margin: 50px 0;
+}
+body .banner-footer img {
+  width: auto;
+  height: 800px;
+  padding-left: 100px;
+}
+body footer {
+  background-color: #380d11;
+  margin: 10px 0;
+  display: flex;
+  gap: 50px;
+}
+body footer p {
+  position: absolute;
+  padding-top: 370px;
+  font-size: 18px;
+}
+body footer div {
+  flex-direction: column;
+  padding: 30px;
+}
+body footer div h3 {
+  color: beige;
+  font-family: "Poppins";
+  font-size: 27px;
+  font-weight: bold;
+}
+body footer div ul {
+  list-style: none;
+}
+body footer div ul li {
+  position: relative;
+}
+body footer div ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: "Poppins";
+  color: beige;
+  margin: 10px;
+}
+body footer div ul li a:hover {
+  color: black;
+  transition: all 0.2s ease-in-out;
+}/*# sourceMappingURL=main.css.map */
