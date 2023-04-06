@@ -136,4 +136,230 @@ body {
             }
         }
     }
+    div.stock {
+        padding: 50px;
+        margin: auto;
+        h2 {
+            color: black;
+            font-family: 'Poppins';
+            font-size: 100px;
+            font-weight: 500;
+            text-align: left;
+        }
+        p {
+            color: #181818;
+            font-family: 'Poppins';
+            font-size: 30px;
+            font-weight: 300;
+            text-align: left;
+        }
+    }
+    section.grid-cont {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 500px 500px 500px 500px;
+        gap: 150px;
+        justify-content: center;
+        div {
+            img {
+                width: 350px;
+                height: auto;
+            }
+            h3 {
+                color: #181818;
+                font-family:'Poppins';
+                font-size: 30px;
+                font-weight: lighter;
+                text-align: center;
+            }
+            h4 {
+                color: black;
+                font-family: 'Poppins';
+                font-size: 35px;
+                font-weight: bold;
+                text-align: center;
+            }
+            p {
+                color: red;
+                font-family: 'Poppins';
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    div.noved {
+        background-color: #181818;
+        margin: 50px 100px 50px 100px;
+        height: 80px;
+        h1 {
+            color: #f6f3f3;
+            font-family: 'Poppins';
+            font-size: 40px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        h2 {
+            background-color: pink;
+            color: #181818;
+            font-family: 'Phudu';
+            font-size:  80px;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }section.pink {
+        margin: 200px 10px 100px 10px;
+        background-image: url(../img/JordanAf1ValentineDay.jpeg);
+        background-size: cover;
+        div {
+            position: relative;
+            img {
+                padding-left: 500px;
+                width: auto;
+                height: 900px;
+            }
+        }
+    }
+    div.noved2 h2 {
+        margin: 100px 10px 100px 10px;
+        background-color: pink;
+        color: #181818;
+        text-align: center;
+        font-family: 'Phudu';
+        font-size: 80px;
+    }
+    section.red {
+        margin: 200px 10px 100px 10px;
+        background-image: url(../img/air-jordan-4-retro-metallic-red-CT8527-112_2.jpeg);
+        background-size: cover;
+        div {
+            position: relative;
+            img {
+                padding-left: 400px;
+                width: 75%;
+                height: auto;
+            }
+        }
+    }
+    div.noved3 h2 {
+        background-color: red;
+        padding-top: 10px;
+        color: #181818;
+        font-family: 'Phudu';
+        font-size: 80px;
+        text-align: center;
+    }
+    div.noved4 {
+        margin: 100px 10px 100px 10px;
+        background-color: red;
+        h2 {
+            color: #181818;
+            padding-top: 10px;
+            font-family: 'Phudu';
+            font-size: 80px;
+            text-align: center;
+        }
+    }
+    div.nosotros {
+        margin: 50px;
+        h1 {
+            font-family: 'Poppins';
+            font-size: 50px;
+            font-weight: bold;
+        }
+    }
+    div.texto {
+        margin: 90px 250px;
+        text-align: justify;
+        p {
+            font-family: 'Poppins';
+            font-size: 21px;
+        }
+        h5 {
+            font-family: 'Poppins';
+            font-size: 33px;
+        }
+        ul {
+            li {
+                font-family: 'Poppins';
+                font-size: 21px;
+            }
+        }
+    }
+    .form {
+        font-family: 'Poppins';
+        min-height: 55vh;
+        background-color: rgb(214,209,243);
+        margin: 50px auto;
+        width: 350px;
+        height: 450px;
+        padding: 50px 15px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 2px;
+        text-align: top center;
+        .form_title {
+            h2 {
+                font-size: 2rem;
+                margin-bottom: .5em;
+                text-align: center;
+            }
+            .form_paragraph {
+                font-weight: 300px;
+                text-align: center;
+            }
+
+        }
+        .form_container {
+            margin-top: 125px;
+            display: grid;
+            gap: 2em;
+            .form_group {
+                position: relative;
+                color: rgb(66, 65, 65);
+                .form_input {
+                    width: 100px;
+                    background: none;
+                    color: rgb(124, 123, 123);
+                    font-size: 1rem;
+                    padding: .8em .3em;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid color ;
+                    font-family: 'Poppins';
+
+                }
+                .form_label {
+                    color: black;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    left: 5px;
+                    transform: translateY(10px);
+                    transition: all .5s, color, 3s;
+                }
+                .form_line {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #3866f2;
+                }
+
+
+            }
+            .form_submit {
+                background: #3866f2;
+                color: white;
+                font-family: 'Poppins';
+                font-weight: 300;
+                font-size: 1rem;
+                padding: .8em 0;
+                border: none;
+                border-radius: .5em;
+            }
+            
+        }
+
+    }
 }
