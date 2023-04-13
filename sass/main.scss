@@ -80,12 +80,75 @@ body {
         padding: 10px;
         font-size: 20px;
         outline: none;
-        border: 2px solid #f6f3f3;
+        border: 3px solid #bd0808;
         border-radius: 50px;
         transition: all 0.5s ease;
-        
-
-        
+        text-align: center;
+                
     }
   }
+
+  
+  section.container {
+        display: flex;
+        padding: 0;
+        margin-top: 60px;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .home {
+            padding: 5px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            img {
+                width: 150vh;
+                height: auto;
+            }
+        }
+    
+    }
+    .promo-barra {
+        margin: 100px 50px;
+        background-color: #640b0b86;
+        h1 {
+            color: #f6f3f3;
+            font-family: 'Poppins';
+            font-size: 35px;
+            padding-top: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        h3 {
+            font-family: 'Poppins';
+            color: #f6f3f3;
+            text-align: center;
+        }
+        .mail {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            input {
+                width: 400px;
+                height: 40px;
+                font-size: 20px;
+                font-family: 'Poppins';
+                margin-top: 25px;
+                margin-bottom: 35px;
+            }
+            button {
+                margin-top: 25px;
+                margin-bottom: 35px;
+                font-family: 'Poppins';
+                font-size: 19px;
+            }
+        }
+    }
+    .banner-footer {
+        margin: 50px 0;
+        img {
+            width: auto;
+            height: 800px;
+            padding-left: 100px;
+        }
+    }
 }

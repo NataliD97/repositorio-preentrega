@@ -77,7 +77,69 @@ body div.buscar input {
   padding: 10px;
   font-size: 20px;
   outline: none;
-  border: 2px solid #f6f3f3;
+  border: 3px solid #bd0808;
   border-radius: 50px;
   transition: all 0.5s ease;
+  text-align: center;
+}
+body section.container {
+  display: flex;
+  padding: 0;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body section.container .home {
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+body section.container .home img {
+  width: 150vh;
+  height: auto;
+}
+body .promo-barra {
+  margin: 100px 50px;
+  background-color: rgba(100, 11, 11, 0.5254901961);
+}
+body .promo-barra h1 {
+  color: #f6f3f3;
+  font-family: "Poppins";
+  font-size: 35px;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+body .promo-barra h3 {
+  font-family: "Poppins";
+  color: #f6f3f3;
+  text-align: center;
+}
+body .promo-barra .mail {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+body .promo-barra .mail input {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Poppins";
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+body .promo-barra .mail button {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-family: "Poppins";
+  font-size: 19px;
+}
+body .banner-footer {
+  margin: 50px 0;
+}
+body .banner-footer img {
+  width: auto;
+  height: 800px;
+  padding-left: 100px;
 }/*# sourceMappingURL=main.css.map */
