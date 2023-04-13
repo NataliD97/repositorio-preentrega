@@ -1,3 +1,47 @@
 body {
   font-family: "Poppins";
+  --color1: #f6f3f3;
+  --color2: #181818;
+  background-color: #181818 !important;
+}
+body .nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  list-style: none;
+  background-color: #181818;
+  padding: 12px 20px;
+}
+body .nav-bar .logo img {
+  width: 80px;
+}
+body .nav-bar .menu {
+  display: flex;
+}
+body .nav-bar .menu li {
+  padding-left: 30px;
+}
+body .nav-bar .menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f6f3f3;
+  text-align: center;
+  transition: 0.15s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+body .nav-bar .menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #f6f3f3;
+  transition: 0.15s ease-in-out;
+}
+body .nav-bar .menu li a::after:hover::after {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
