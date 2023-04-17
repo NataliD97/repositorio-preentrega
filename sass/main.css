@@ -82,6 +82,13 @@ body div.buscar input {
   transition: all 0.5s ease;
   text-align: center;
 }
+body .banner-ini {
+  margin: 50px 150px;
+}
+body .banner-ini img {
+  width: auto;
+  height: 600px;
+}
 body section.container {
   display: flex;
   padding: 0;
@@ -96,7 +103,7 @@ body section.container .home {
   flex-wrap: nowrap;
 }
 body section.container .home img {
-  width: 150vh;
+  width: 100vh;
   height: auto;
 }
 body .promo-barra {
@@ -142,4 +149,42 @@ body .banner-footer img {
   width: auto;
   height: 800px;
   padding-left: 100px;
+}
+body footer {
+  background-color: rgba(68, 65, 65, 0.7607843137);
+  display: flex;
+  gap: 50px;
+}
+body footer p {
+  position: absolute;
+  padding-top: 370px;
+  font-size: 18px;
+}
+body footer div {
+  flex-direction: column;
+  padding: 30px;
+}
+body footer div h3 {
+  color: #fcf4f4;
+  font-family: "Poppins";
+  font-size: 27px;
+  font-weight: bold;
+}
+body footer div ul {
+  list-style: none;
+}
+body footer div ul li {
+  position: relative;
+}
+body footer div ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: "Poppins";
+  color: #fcf4f4;
+  margin: 10px;
+}
+body footer div ul li a:hover {
+  color: #7a1212;
+  transition: all 0.2s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
